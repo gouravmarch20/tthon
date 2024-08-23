@@ -1,8 +1,12 @@
 import React from "react";
-import Detection from "../components/dedactor/Detection";
+import Camera from "../components/dedactor/Camera";
+import ImageRecognition from "../components/dedactor/ImageRecognition";
 
 const ObjectDetector = () => {
-  return <div>{<Detection />}</div>;
+  return <div>
+    <Camera />
+    <ImageRecognition/>
+  </div>;
 };
 
 export default ObjectDetector;
